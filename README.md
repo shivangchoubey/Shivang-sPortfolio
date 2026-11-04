@@ -29,7 +29,7 @@ An award-calibre developer portfolio showcasing selected systems, AI research, a
 
 ## ✦ Featured Projects
 
-1. **[Praesto](https://github.com/shivangchoubey/Praesto)** — *Self-Hosted Application Deployment Platform*
+1. **[Praesto](https://praesto-rho.vercel.app)** ([GitHub](https://github.com/shivangchoubey/Praesto)) — *Self-Hosted Application Deployment Platform (Live on Vercel)*
    - Turn GitHub repos into running Docker containers and public URLs via OpenZiti (Zrok).
    - 20 REST APIs, 7 Prisma models, 5-stage state-driven deployment lifecycle.
 2. **[Veridion / Investing Agent](https://investing-agent-three.vercel.app/)** — *AI Investment Research Dashboard*
@@ -113,3 +113,4 @@ Drag and drop this directory into the [Netlify Drop](https://app.netlify.com/dro
 - **LinkedIn**: [linkedin.com/in/shivangchoubey01](https://www.linkedin.com/in/shivangchoubey01/)
 - **GitHub**: [github.com/shivangchoubey](https://github.com/shivangchoubey/)
 - **LeetCode**: [leetcode.com/u/shivangchoubey01](https://leetcode.com/u/shivangchoubey01/)
+
