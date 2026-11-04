@@ -1,0 +1,22 @@
+{
+  "name": "shivang-choubey-portfolio",
+  "version": "1.0.0",
+  "description": "Personal developer portfolio of Shivang Choubey — Full-Stack & Systems Developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js",
+    "build": "echo \"Static site ready for deployment\""
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "full-stack",
+    "react",
+    "node",
+    "portfolio-website"
+  ],
+  "author": "Shivang Choubey <shivang.c2004@gmail.com>",
+  "license": "MIT"
+}

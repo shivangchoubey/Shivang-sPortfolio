@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070a07" />
+  <title>Shivang Choubey — Full-Stack | Software Developer</title>
+  <meta name="description" content="Shivang Choubey is a final-year computer science student and full-stack developer building deployment tools, AI research products, and web platforms. Selected work, stack, education, and contact." />
+  <meta property="og:title" content="Shivang Choubey — Full-Stack | Software Developer" />
+  <meta property="og:description" content="Final-year CSE student building full-stack products with React, Node.js, and PostgreSQL." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23070a07'/%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%23c8f24e' stroke-width='1.5'/%3E%3Ctext x='16' y='20.5' font-family='sans-serif' font-weight='700' font-size='12' fill='%23c8f24e' text-anchor='middle'%3ESC%3C/text%3E%3C/svg%3E" />
+  <link rel="preload" as="image" href="assets/profile.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <span class="cursor-dot"></span>
+    <span class="cursor-ring"></span>
+    <span class="cursor-label" id="cursor-label"></span>
+  </div>
+
+  <!-- loader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-top">
+      <span>Portfolio / 2026</span>
+      <span>Shivang Choubey</span>
+    </div>
+    <div class="loader-center">
+      <span class="loader-word" data-loader-word>SHIVANG</span>
+      <span class="loader-sub">Full-stack · Software developer</span>
+    </div>
+    <div class="loader-bottom">
+      <span class="loader-status">Loading experience</span>
+      <span class="loader-count" id="loader-count">00</span>
+    </div>
+    <div class="loader-bar"><span id="loader-bar"></span></div>
+  </div>
+
+  <!-- header -->
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Shivang Choubey home">
+      <span class="brand-mark">SC</span>
+      <span class="brand-text">
+        <span class="brand-name">Shivang Choubey</span>
+        <span class="brand-role">Full-Stack | Software Developer</span>
+      </span>
+    </a>
+    <div class="header-actions">
+      <a class="header-cv" href="Shivang_Choubey_Resume.pdf" target="_blank" rel="noopener noreferrer" data-cursor="Resume">
+        <span>CV / Resume</span>
+        <svg class="icon"><use href="#i-arrow"/></svg>
+      </a>
+      <p class="header-status"><span class="status-dot"></span> Open to 2027 roles</p>
+    </div>
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="menu-btn-text">Menu</span>
+      <span class="menu-btn-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </header>
+
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+  <!-- overlay menu -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu-inner">
+      <div class="menu-col menu-col--links">
+        <p class="menu-label">Index</p>
+        <nav class="menu-nav" aria-label="Menu">
+          <a class="menu-link" href="#top"><span class="menu-num">00</span><span class="menu-word-mask"><span class="menu-word">Home</span></span></a>
+          <a class="menu-link" href="#about"><span class="menu-num">01</span><span class="menu-word-mask"><span class="menu-word">Profile</span></span></a>
+          <a class="menu-link" href="#work"><span class="menu-num">02</span><span class="menu-word-mask"><span class="menu-word">Work</span></span></a>
+          <a class="menu-link" href="#stack"><span class="menu-num">03</span><span class="menu-word-mask"><span class="menu-word">Arsenal</span></span></a>
+          <a class="menu-link" href="#education"><span class="menu-num">04</span><span class="menu-word-mask"><span class="menu-word">Trajectory</span></span></a>
+          <a class="menu-link" href="#contact"><span class="menu-num">05</span><span class="menu-word-mask"><span class="menu-word">Contact</span></span></a>
+        </nav>
+      </div>
+      <div class="menu-col menu-col--side">
+        <div class="menu-block">
+          <p class="menu-label">Resume</p>
+          <a class="menu-mail" href="Shivang_Choubey_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume (PDF) <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="menu-block">
+          <p class="menu-label">Get in touch</p>
+          <a class="menu-mail" href="mailto:shivang.c2004@gmail.com">shivang.c2004@gmail.com</a>
+          <a class="menu-phone" href="tel:+918319514903">+91 83195 14903</a>
+        </div>
+        <div class="menu-block">
+          <p class="menu-label">Elsewhere</p>
+          <div class="menu-socials">
+            <a href="https://www.linkedin.com/in/shivangchoubey01/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a href="https://github.com/shivangchoubey/" target="_blank" rel="noopener noreferrer">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a href="https://leetcode.com/u/shivangchoubey01/" target="_blank" rel="noopener noreferrer">LeetCode <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+        <p class="menu-loc">Phagwara, Punjab<br />30.9°N · 75.6°E</p>
+      </div>
+    </div>
+    <div class="menu-foot">
+      <span>Available for new-grad &amp; internship roles</span>
+      <span>Scroll with intention</span>
+    </div>
+  </div>
+
+  <!-- section rail -->
+  <aside class="rail" id="rail" aria-label="Section navigation">
+    <div class="rail-line" aria-hidden="true"><span id="rail-fill"></span></div>
+    <ul class="rail-list">
+      <li><a href="#about" data-rail="about"><span>01</span><em>Profile</em></a></li>
+      <li><a href="#work" data-rail="work"><span>02</span><em>Work</em></a></li>
+      <li><a href="#stack" data-rail="stack"><span>03</span><em>Arsenal</em></a></li>
+      <li><a href="#education" data-rail="education"><span>04</span><em>Trajectory</em></a></li>
+      <li><a href="#contact" data-rail="contact"><span>05</span><em>Contact</em></a></li>
+    </ul>
+  </aside>
+
+  <main id="main">
+    <!-- hero -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <canvas class="hero-canvas" id="field" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow" data-hero="eyebrow"><span class="status-dot"></span> Final-year CSE · Open to new-grad roles &amp; internships</p>
+          <h1 class="hero-title" id="hero-title">
+            <span class="title-line"><span class="line-inner" data-split>Shivang</span></span>
+            <span class="title-line title-line--indent"><span class="line-inner" data-split>Choubey<i class="title-dot">.</i></span></span>
+          </h1>
+
+          <div class="hero-lower">
+            <p class="hero-lede" data-hero="lede">Full-stack developer building with the MERN stack — from REST APIs and data models to interfaces that feel considered.</p>
+            <div class="hero-actions" data-hero="actions">
+              <a class="btn btn--solid" href="#work" data-magnetic="0.28" data-cursor="Scroll">
+                <span>Selected work</span>
+                <svg class="icon"><use href="#i-arrow-down"/></svg>
+              </a>
+              <a class="btn btn--outline" href="Shivang_Choubey_Resume.pdf" target="_blank" rel="noopener noreferrer" data-magnetic="0.28" data-cursor="Resume">
+                <span>Resume</span>
+                <svg class="icon"><use href="#i-arrow"/></svg>
+              </a>
+              <a class="btn btn--text" href="mailto:shivang.c2004@gmail.com" data-cursor="Write">Let's talk <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-portrait" data-hero="portrait">
+          <div class="portrait-glow" aria-hidden="true"></div>
+          <div class="portrait-frame" id="portrait-frame">
+            <img src="assets/profile.png" alt="Portrait of Shivang Choubey" width="1199" height="1312" fetchpriority="high" />
+            <span class="portrait-shade" aria-hidden="true"></span>
+            <span class="portrait-index" aria-hidden="true">01</span>
+            <span class="portrait-caption">B.Tech CSE '27</span>
+          </div>
+          <div class="orbit" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <defs><path id="orbit-path" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0" /></defs>
+              <text><textPath href="#orbit-path" startOffset="0">OPEN TO WORK · OPEN TO WORK · OPEN TO WORK · </textPath></text>
+            </svg>
+            <span class="orbit-core"></span>
+          </div>
+          <p class="portrait-meta"><span>Phagwara, Punjab</span><span>30.9°N · 75.6°E</span></p>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <a class="scroll-cue" href="#about" data-cursor="Down"><span class="scroll-cue-line" aria-hidden="true"></span> Scroll to explore</a>
+        <p class="hero-foot-meta">Portfolio / 2026 <span>·</span> Available worldwide</p>
+      </div>
+    </section>
+
+    <!-- lime band -->
+    <div class="band" aria-hidden="true">
+      <div class="band-track">
+        <div class="band-group">
+          <span>Full-stack developer</span><i>✳</i><span>React</span><i>✳</i><span>Node.js</span><i>✳</i><span>PostgreSQL</span><i>✳</i><span>Docker</span><i>✳</i><span>AI products</span><i>✳</i>
+        </div>
+        <div class="band-group">
+          <span>Full-stack developer</span><i>✳</i><span>React</span><i>✳</i><span>Node.js</span><i>✳</i><span>PostgreSQL</span><i>✳</i><span>Docker</span><i>✳</i><span>AI products</span><i>✳</i>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-top">
+          <p class="section-index">01 / Profile</p>
+          <p class="section-note">Computer science student<br />full-stack builder</p>
+        </div>
+
+        <h2 class="statement" id="about-title">
+          <span class="statement-line">Student first.</span>
+          <span class="statement-line statement-line--indent">Builder <em>always.</em></span>
+        </h2>
+
+        <div class="about-grid">
+          <figure class="about-media" data-reveal>
+            <div class="about-media-inner" data-parallax="6">
+              <img src="assets/stock/circuit.jpg" alt="Macro detail of gold circuit board pins" width="1280" height="853" loading="lazy" />
+            </div>
+            <figcaption><span>Fig. 01</span> The physical layer — where the abstraction ends.</figcaption>
+          </figure>
+
+          <div class="about-copy">
+            <p class="about-lead" data-reveal>I'm a final-year Computer Science student at Lovely Professional University and a full-stack developer working mostly with the MERN stack.</p>
+            <div class="about-body" data-reveal>
+              <p>I like owning the whole path: modelling the data, shaping the REST API, then building the interface people actually use. Recently that meant <a href="#project-praesto">Praesto</a>, a self-hosted deployment platform, and <a href="#project-agent">Investing Agent</a>, an AI research product grounded in live market data.</p>
+              <p>I'm looking for new-grad and internship opportunities where I can keep shipping real product. The rest of my time goes into data structures and algorithms in Java, and regular LeetCode practice.</p>
+            </div>
+
+            <dl class="about-facts" data-reveal>
+              <div><dt>Focus</dt><dd>Full-stack engineering · MERN</dd></div>
+              <div><dt>Graduating</dt><dd>B.Tech CSE · 2027</dd></div>
+              <div><dt>Based in</dt><dd>Phagwara, Punjab · open to relocation</dd></div>
+            </dl>
+
+            <div class="about-now" data-reveal>
+              <p class="mono-label"><span class="status-dot"></span> Currently</p>
+              <p>Building Praesto, sharpening DSA, and preparing for new-grad interviews.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="principles" data-reveal>
+          <div class="principle"><span>01</span><h3>Own the whole path</h3><p>Schema, API, query, interface. The seams are where products get good.</p></div>
+          <div class="principle"><span>02</span><h3>Ship, then refine</h3><p>A working product teaches you things a perfect plan never will.</p></div>
+          <div class="principle"><span>03</span><h3>Stay curious</h3><p>New tools, hard problems, and the occasional 2 a.m. rabbit hole.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="container work-head">
+        <div class="section-top">
+          <p class="section-index">02 / Selected work</p>
+          <p class="section-note">Four products<br />2025 — 2026</p>
+        </div>
+        <h2 class="work-title" id="work-title">Work that <em>ships.</em></h2>
+        <p class="work-intro" data-reveal>Not concepts, not mockups. Real deployments, live URLs, and the unglamorous validation logic that keeps them honest.</p>
+      </div>
+
+      <!-- praesto -->
+      <article class="project project--praesto" id="project-praesto" aria-labelledby="project-praesto-title">
+        <span class="project-word" aria-hidden="true">Praesto</span>
+        <div class="container project-inner">
+          <div class="project-visual" data-cursor="View">
+            <div class="visual-frame">
+              <div class="mockup mockup--deploy">
+                <div class="mock-bar"><span class="mock-dots"><i></i><i></i><i></i></span><span class="mock-url">praesto.local / deployments</span><span class="mock-live"><i></i> live</span></div>
+                <div class="mock-body">
+                  <aside class="deploy-side">
+                    <p class="mock-kicker">Projects</p>
+                    <ul class="deploy-list"><li class="is-active">api-gateway</li><li>docs-site</li><li>worker-pool</li></ul>
+                    <p class="mock-kicker">Agents</p>
+                    <div class="agent-row"><span class="status-dot"></span> local-01 <em>30s</em></div>
+                    <div class="agent-row"><span class="status-dot"></span> local-02 <em>12s</em></div>
+                  </aside>
+                  <div class="deploy-main">
+                    <div class="deploy-head"><div><strong>api-gateway</strong><span>main · 4f2c1a8</span></div><span class="pill pill--run">RUNNING</span></div>
+                    <div class="pipeline">
+                      <div class="pipe"><span>01</span><b>PENDING</b><i></i></div>
+                      <div class="pipe"><span>02</span><b>BUILDING</b><i></i></div>
+                      <div class="pipe is-on"><span>03</span><b>RUNNING</b><i></i></div>
+                      <div class="pipe"><span>04</span><b>FAILED</b><i></i></div>
+                      <div class="pipe"><span>05</span><b>OFFLINE</b><i></i></div>
+                    </div>
+                    <div class="logs">
+                      <p><span>09:41:02</span> pulling github.com/shivangchoubey/api-gateway</p>
+                      <p><span>09:41:16</span> docker build -t praesto/api-gateway:4f2c1a8</p>
+                      <p class="is-lime"><span>09:41:44</span> container healthy · port 49152 allocated</p>
+                      <p class="is-dim"><span>09:41:45</span> tunnel https://api-gateway.zrok.io</p>
+                    </div>
+                    <div class="deploy-foot"><span class="pulse"></span> deployment live <em>42s</em></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="visual-caption"><span>Case 01</span> Deployment console · build pipeline</p>
+          </div>
+
+          <div class="project-copy">
+            <div class="project-meta"><span>01</span><span>Systems</span><span>2026</span></div>
+            <h3 class="project-title" id="project-praesto-title">Praesto</h3>
+            <p class="project-sub">Self-hosted deployment platform</p>
+            <p class="project-lede">A GitHub repository in, a running container and public URL out. Praesto builds with Docker, tracks every deployment through five states, and tunnels services to the web without a cloud bill.</p>
+            <dl class="project-facts">
+              <div><dt>Role</dt><dd>Solo developer</dd></div>
+              <div><dt>Core</dt><dd>20 REST APIs · 7 Prisma models</dd></div>
+              <div><dt>Stack</dt><dd>React, Node.js, PostgreSQL, Prisma, Docker, Zrok</dd></div>
+            </dl>
+            <div class="project-tags"><span>Systems design</span><span>Docker</span><span>Node.js</span><span>PostgreSQL</span></div>
+            <div class="project-links">
+              <a class="link-arrow" href="https://github.com/shivangchoubey/Praesto" target="_blank" rel="noopener noreferrer">View repository <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- investing agent -->
+      <article class="project project--agent project--reverse" id="project-agent" aria-labelledby="project-agent-title">
+        <span class="project-word" aria-hidden="true">Veridion</span>
+        <div class="container project-inner">
+          <div class="project-visual" data-cursor="Live site">
+            <div class="visual-frame">
+              <div class="mockup mockup--agent">
+                <div class="mock-bar"><span class="mock-dots"><i></i><i></i><i></i></span><span class="mock-url">investing-agent / analyse</span><span class="mock-live"><i></i> live</span></div>
+                <div class="mock-body agent-body">
+                  <div class="agent-company">
+                    <p class="mock-kicker">Company</p>
+                    <div class="company-head"><strong>AAPL</strong><span class="pill pill--soft">NASDAQ</span></div>
+                    <h4>Apple Inc.</h4>
+                    <div class="company-price"><b>$227.52</b><span>+1.24%</span></div>
+                    <svg class="spark" viewBox="0 0 220 64" preserveAspectRatio="none" aria-hidden="true">
+                      <path d="M0 50 18 44 34 47 52 33 70 38 88 26 106 30 124 20 142 25 160 15 178 19 196 8 220 13" fill="none" stroke="currentColor" stroke-width="1.6" />
+                      <path d="M0 50 18 44 34 47 52 33 70 38 88 26 106 30 124 20 142 25 160 15 178 19 196 8 220 13V64H0Z" fill="url(#spark-fill)" />
+                      <defs><linearGradient id="spark-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".18" /><stop offset="1" stop-color="currentColor" stop-opacity="0" /></linearGradient></defs>
+                    </svg>
+                    <p class="news-line">Reuters · Apple extends services growth into Q4</p>
+                  </div>
+                  <div class="agent-report">
+                    <div class="score-wrap">
+                      <svg class="score-ring" viewBox="0 0 120 120" aria-hidden="true">
+                        <circle class="score-track" cx="60" cy="60" r="50" pathLength="100" />
+                        <circle class="score-progress" cx="60" cy="60" r="50" pathLength="100" data-score="86" />
+                      </svg>
+                      <div class="score-value"><b>86</b><span>score</span></div>
+                    </div>
+                    <div class="agent-verdict">
+                      <span class="verdict">INVEST</span>
+                      <p>Confidence <b>90%</b></p>
+                      <span class="agent-status"><i></i> generated just now</span>
+                    </div>
+                    <div class="agent-columns">
+                      <div><p class="mock-kicker">Strengths</p><span class="agent-chip">Brand power</span><span class="agent-chip">Margins</span><span class="agent-chip">Ecosystem</span></div>
+                      <div><p class="mock-kicker">Risks</p><span class="agent-chip agent-chip--risk">Regulation</span><span class="agent-chip agent-chip--risk">Competition</span><span class="agent-chip agent-chip--risk">Supply chain</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="visual-caption"><span>Case 02</span> AI research dashboard · live analysis</p>
+          </div>
+
+          <div class="project-copy">
+            <div class="project-meta"><span>02</span><span>AI · Fintech</span><span>2026</span></div>
+            <h3 class="project-title" id="project-agent-title">Investing Agent</h3>
+            <p class="project-sub">Veridion — AI investment research</p>
+            <p class="project-lede">Enter a public company and get a structured investment report: an investment score, confidence, strengths, risks, and the reasoning behind the call. LLM analysis grounded in live market data and recent news.</p>
+            <dl class="project-facts">
+              <div><dt>Role</dt><dd>Full-stack developer</dd></div>
+              <div><dt>Core</dt><dd>LLM pipeline · live financial data</dd></div>
+              <div><dt>Stack</dt><dd>React, Vite, Express, LangChain, Groq, Yahoo Finance, GNews</dd></div>
+            </dl>
+            <div class="project-tags"><span>AI</span><span>LangChain</span><span>Groq</span><span>React</span></div>
+            <div class="project-links">
+              <a class="link-arrow" href="https://investing-agent-three.vercel.app/" target="_blank" rel="noopener noreferrer">Open live site <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <a class="link-arrow link-arrow--muted" href="https://github.com/shivangchoubey/Investing_agent" target="_blank" rel="noopener noreferrer">Repository <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- invest project -->
+      <article class="project project--invest" id="project-invest" aria-labelledby="project-invest-title">
+        <span class="project-word" aria-hidden="true">Dhanex</span>
+        <div class="container project-inner">
+          <div class="project-visual" data-cursor="Live site">
+            <div class="visual-frame">
+              <div class="mockup mockup--invest">
+                <div class="mock-bar"><span class="mock-dots"><i></i><i></i><i></i></span><span class="mock-url">invest-platform / campaign</span><span class="mock-live"><i></i> live</span></div>
+                <div class="mock-body invest-body">
+                  <div class="invest-main">
+                    <div class="campaign-head"><span class="pill pill--soft">SEED</span><span class="campaign-time">12 days left</span></div>
+                    <h4>Solaris AR</h4>
+                    <p class="campaign-sub">Ambient solar infrastructure for dense cities.</p>
+                    <div class="fund-progress"><span class="fund-fill"></span></div>
+                    <div class="fund-numbers"><div><b>$780k</b><span>raised of $1m</span></div><div class="fund-percent">78%</div></div>
+                    <div class="invest-stats">
+                      <div><b>142</b><span>investors</span></div>
+                      <div><b>18</b><span>days live</span></div>
+                      <div><b>3.4×</b><span>demand</span></div>
+                    </div>
+                    <div class="invest-actions"><span class="mock-cta">Invest now</span><span class="mock-ghost">View deck</span></div>
+                  </div>
+                  <aside class="invest-side">
+                    <p class="mock-kicker">Funding history</p>
+                    <div class="bars">
+                      <span style="--h: 34%"></span><span style="--h: 52%"></span><span style="--h: 44%"></span><span style="--h: 68%"></span><span style="--h: 61%"></span><span style="--h: 84%"></span><span class="is-peak" style="--h: 78%"></span>
+                    </div>
+                    <div class="invest-backers">
+                      <p class="mock-kicker">Recent backers</p>
+                      <div class="backer"><span class="avatar">AK</span><span>Anaya K.</span><em>$25k</em></div>
+                      <div class="backer"><span class="avatar">RM</span><span>Rohan M.</span><em>$10k</em></div>
+                      <div class="backer"><span class="avatar">JS</span><span>J. Silva</span><em>$50k</em></div>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+            </div>
+            <p class="visual-caption"><span>Case 03</span> Fundraising dashboard · live progress</p>
+          </div>
+
+          <div class="project-copy">
+            <div class="project-meta"><span>03</span><span>Fintech</span><span>2026</span></div>
+            <h3 class="project-title" id="project-invest-title">Invest Project</h3>
+            <p class="project-sub">Dhanex — fundraising platform</p>
+            <p class="project-lede">Founders raise, investors back, and the ledger stays honest. JWT roles separate founders from investors, while validation makes over-funding impossible and progress updates in real time.</p>
+            <dl class="project-facts">
+              <div><dt>Role</dt><dd>Full-stack developer</dd></div>
+              <div><dt>Core</dt><dd>10+ REST APIs · 100% cap control</dd></div>
+              <div><dt>Stack</dt><dd>React, Tailwind, Express, MongoDB, Mongoose, Zod, JWT, Docker</dd></div>
+            </dl>
+            <div class="project-tags"><span>MERN</span><span>Auth</span><span>Validation</span><span>MongoDB</span></div>
+            <div class="project-links">
+              <a class="link-arrow" href="https://invest-platform-1.onrender.com/" target="_blank" rel="noopener noreferrer">Open live site <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <a class="link-arrow link-arrow--muted" href="https://github.com/shivangchoubey/Invest-platform" target="_blank" rel="noopener noreferrer">Repository <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- bike rental -->
+      <article class="project project--bike project--reverse" id="project-bike" aria-labelledby="project-bike-title">
+        <span class="project-word" aria-hidden="true">Velo</span>
+        <div class="container project-inner">
+          <div class="project-visual" data-cursor="View">
+            <div class="visual-frame">
+              <div class="mockup mockup--bike">
+                <div class="mock-bar"><span class="mock-dots"><i></i><i></i><i></i></span><span class="mock-url">velo-rapido / reserve</span><span class="mock-live"><i></i> open</span></div>
+                <div class="mock-body bike-body">
+                  <div class="bike-map">
+                    <p class="mock-kicker">Nearby fleet</p>
+                    <svg viewBox="0 0 260 190" aria-hidden="true">
+                      <g class="map-grid"><path d="M0 40h260M0 80h260M0 120h260M0 160h260M40 0v190M90 0v190M140 0v190M190 0v190M240 0v190" /></g>
+                      <path class="map-route" d="M38 154 74 132 82 96 126 84 150 48 202 38" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="4 5" />
+                      <circle class="map-pin" cx="38" cy="154" r="4" />
+                      <circle class="map-pin map-pin--end" cx="202" cy="38" r="5" />
+                      <circle class="map-ring" cx="202" cy="38" r="14" />
+                    </svg>
+                    <div class="bike-available"><span class="status-dot"></span> 12 bikes within 1 km</div>
+                  </div>
+                  <div class="bike-booking">
+                    <p class="mock-kicker">Reserve a ride</p>
+                    <h4>Velo City 03</h4>
+                    <div class="bike-specs"><span>7-speed</span><span>Disc brakes</span><span>LED</span></div>
+                    <div class="date-row"><span class="date-chip">Thu 14</span><span class="date-chip is-active">Fri 15</span><span class="date-chip">Sat 16</span></div>
+                    <div class="time-row"><span>09:00</span><span class="time-sep"></span><span>12:00</span><em>3 hrs</em></div>
+                    <div class="bike-total"><span>Total</span><b>₹240</b></div>
+                    <span class="mock-cta mock-cta--full">Reserve now</span>
+                    <p class="bike-note">Damage reporting enabled post-rental</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="visual-caption"><span>Case 04</span> Rental interface · booking flow</p>
+          </div>
+
+          <div class="project-copy">
+            <div class="project-meta"><span>04</span><span>Commerce</span><span>2025</span></div>
+            <h3 class="project-title" id="project-bike-title">BikeRental</h3>
+            <p class="project-sub">Velo-Rapido — rental website</p>
+            <p class="project-lede">Book a bike by date and time, track the reservation, and report damage after the ride. Separate customer and admin sessions keep the fleet honest and maintenance visible.</p>
+            <dl class="project-facts">
+              <div><dt>Role</dt><dd>Full-stack developer</dd></div>
+              <div><dt>Core</dt><dd>Reservations · damage reports · admin</dd></div>
+              <div><dt>Stack</dt><dd>HTML, CSS, Tailwind, JavaScript, PHP, MySQL</dd></div>
+            </dl>
+            <div class="project-tags"><span>Full-stack</span><span>PHP</span><span>MySQL</span><span>Bookings</span></div>
+            <div class="project-links">
+              <a class="link-arrow" href="https://github.com/shivangchoubey/BiKE_RENTAL" target="_blank" rel="noopener noreferrer">View repository <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- stack -->
+    <section class="section stack" id="stack" aria-labelledby="stack-title">
+      <div class="container section-top">
+        <p class="section-index">03 / Arsenal</p>
+        <p class="section-note">Tools I think in<br />not a checklist</p>
+      </div>
+
+      <div class="container">
+        <h2 class="stack-title" id="stack-title">The <em>stack</em> behind the work.</h2>
+      </div>
+
+      <div class="stack-marquees" aria-hidden="true">
+        <div class="stack-row">
+          <div class="stack-track">
+            <div class="stack-group"><span>React</span><i>✳</i><span>Node.js</span><i>✳</i><span>Express</span><i>✳</i><span>PostgreSQL</span><i>✳</i><span>MongoDB</span><i>✳</i><span>Prisma</span><i>✳</i><span>Docker</span><i>✳</i><span>GitHub Actions</span><i>✳</i></div>
+            <div class="stack-group"><span>React</span><i>✳</i><span>Node.js</span><i>✳</i><span>Express</span><i>✳</i><span>PostgreSQL</span><i>✳</i><span>MongoDB</span><i>✳</i><span>Prisma</span><i>✳</i><span>Docker</span><i>✳</i><span>GitHub Actions</span><i>✳</i></div>
+          </div>
+        </div>
+        <div class="stack-row stack-row--outline">
+          <div class="stack-track stack-track--reverse">
+            <div class="stack-group"><span>JavaScript</span><i>✳</i><span>Java</span><i>✳</i><span>Python</span><i>✳</i><span>C++</span><i>✳</i><span>MySQL</span><i>✳</i><span>Tailwind</span><i>✳</i><span>Zod</span><i>✳</i><span>LangChain</span><i>✳</i></div>
+            <div class="stack-group"><span>JavaScript</span><i>✳</i><span>Java</span><i>✳</i><span>Python</span><i>✳</i><span>C++</span><i>✳</i><span>MySQL</span><i>✳</i><span>Tailwind</span><i>✳</i><span>Zod</span><i>✳</i><span>LangChain</span><i>✳</i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container stack-groups">
+        <article class="stack-group-card" data-reveal>
+          <p class="mono-label">01 / Languages</p>
+          <ul><li>JavaScript</li><li>Java</li><li>Python</li><li>C++</li><li>SQL</li></ul>
+        </article>
+        <article class="stack-group-card" data-reveal>
+          <p class="mono-label">02 / Frontend</p>
+          <ul><li>React</li><li>Tailwind CSS</li><li>HTML / CSS</li><li>Vite</li><li>Motion</li></ul>
+        </article>
+        <article class="stack-group-card" data-reveal>
+          <p class="mono-label">03 / Backend &amp; data</p>
+          <ul><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>MongoDB</li><li>Prisma</li><li>MySQL</li></ul>
+        </article>
+        <article class="stack-group-card" data-reveal>
+          <p class="mono-label">04 / Tools &amp; CI/CD</p>
+          <ul><li>Docker</li><li>GitHub Actions</li><li>Git</li><li>Postman</li><li>Linux</li></ul>
+        </article>
+      </div>
+
+      <div class="container stack-note" data-reveal>
+        <span class="status-dot"></span>
+        <p>Currently exploring: LLM pipelines, self-hosted infrastructure, and the space between product and systems design.</p>
+      </div>
+    </section>
+
+    <!-- education -->
+    <section class="section trajectory" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-top">
+          <p class="section-index">04 / Trajectory</p>
+          <p class="section-note">Education, training<br />and credentials</p>
+        </div>
+        <h2 class="trajectory-title" id="education-title">The long <em>game.</em></h2>
+
+        <div class="edu-list">
+          <article class="edu-row" data-reveal>
+            <span class="edu-year">2023 — 2027</span>
+            <div class="edu-main">
+              <h3>B.Tech — Computer Science &amp; Engineering</h3>
+              <p>Lovely Professional University · Phagwara, Punjab</p>
+            </div>
+            <div class="edu-side"><span>CGPA 7.65 / 10</span><p>Final-year student focused on full-stack development, databases, and data structures.</p></div>
+          </article>
+          <article class="edu-row" data-reveal>
+            <span class="edu-year">Jun — Jul 2025</span>
+            <div class="edu-main">
+              <h3>Data Structures &amp; Algorithms in Java</h3>
+              <p>CipherSchools · Training</p>
+            </div>
+            <div class="edu-side"><span>Certified</span><p>Arrays, lists, stacks, queues, trees, algorithm design, and complexity analysis.</p></div>
+          </article>
+          <article class="edu-row" data-reveal>
+            <span class="edu-year">2021 — 2022</span>
+            <div class="edu-main">
+              <h3>Intermediate — Class XII</h3>
+              <p>Krishna Public School · Bilaspur, Chhattisgarh</p>
+            </div>
+            <div class="edu-side"><span>73.8%</span><p>Completed intermediate education with a science focus.</p></div>
+          </article>
+          <article class="edu-row" data-reveal>
+            <span class="edu-year">2019 — 2020</span>
+            <div class="edu-main">
+              <h3>Matriculation — Class X</h3>
+              <p>Krishna Public School · Bilaspur, Chhattisgarh</p>
+            </div>
+            <div class="edu-side"><span>92.2%</span><p>Completed matriculation with distinction.</p></div>
+          </article>
+        </div>
+
+        <div class="certs">
+          <p class="mono-label">Certifications</p>
+          <a class="cert-row" href="https://www.cipherschools.com/certificate/preview?id=6896181fcec61f8eee567327" target="_blank" rel="noopener noreferrer">
+            <span class="cert-num">01</span>
+            <span class="cert-main"><strong>Data Structures &amp; Algorithms using Java</strong><em>CipherSchools</em></span>
+            <span class="cert-year">2025</span>
+            <svg class="icon"><use href="#i-arrow"/></svg>
+          </a>
+          <a class="cert-row" href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs11/Course/NPTEL25CS11S153730272604252000.pdf" target="_blank" rel="noopener noreferrer">
+            <span class="cert-num">02</span>
+            <span class="cert-main"><strong>Cloud Computing</strong><em>NPTEL</em></span>
+            <span class="cert-year">2025</span>
+            <svg class="icon"><use href="#i-arrow"/></svg>
+          </a>
+          <a class="cert-row" href="https://www.freecodecamp.org/certification/fcc842631f2-0c94-4615-b247-33c3d239425f/responsive-web-design" target="_blank" rel="noopener noreferrer">
+            <span class="cert-num">03</span>
+            <span class="cert-main"><strong>Responsive Web Design</strong><em>freeCodeCamp</em></span>
+            <span class="cert-year">2023</span>
+            <svg class="icon"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-orb" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-top">
+          <p class="section-index">05 / Contact</p>
+          <p class="section-note">Have a problem<br />worth building?</p>
+        </div>
+
+        <h2 class="contact-title" id="contact-title">
+          <span class="contact-line">Let's</span>
+          <span class="contact-line contact-line--indent">build <em>something.</em></span>
+        </h2>
+
+        <div class="contact-main">
+          <div class="contact-mail-block" data-reveal>
+            <p class="mono-label">Start a conversation</p>
+            <a class="contact-mail" href="mailto:shivang.c2004@gmail.com" data-cursor="Email">shivang.c2004@gmail.com</a>
+            <div class="contact-actions">
+              <button class="copy-btn" id="copy-email" type="button" data-cursor="Copy">
+                <svg class="icon"><use href="#i-copy"/></svg>
+                <span id="copy-label">Copy email</span>
+              </button>
+              <a class="copy-btn" href="tel:+918319514903" data-cursor="Call">
+                <svg class="icon"><use href="#i-phone"/></svg>
+                <span>+91 83195 14903</span>
+              </a>
+              <a class="copy-btn" href="Shivang_Choubey_Resume.pdf" target="_blank" rel="noopener noreferrer" data-cursor="Resume">
+                <svg class="icon"><use href="#i-arrow"/></svg>
+                <span>Resume (PDF)</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-side" data-reveal>
+            <div class="contact-block">
+              <p class="mono-label">Elsewhere</p>
+              <div class="contact-socials">
+                <a href="https://www.linkedin.com/in/shivangchoubey01/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a>
+                <a href="https://github.com/shivangchoubey/" target="_blank" rel="noopener noreferrer">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+                <a href="https://leetcode.com/u/shivangchoubey01/" target="_blank" rel="noopener noreferrer">LeetCode <svg class="icon"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+            <div class="contact-block">
+              <p class="mono-label">Based in</p>
+              <p class="contact-loc">Phagwara, Punjab<br />Open to relocation</p>
+            </div>
+            <div class="contact-block">
+              <p class="mono-label">Status</p>
+              <p class="contact-loc"><span class="status-dot"></span> Available for 2027 roles<br />& internships</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container footer-top">
+          <a class="brand brand--footer" href="#top" aria-label="Back to top">
+            <span class="brand-mark">SC</span>
+            <span class="brand-text"><span class="brand-name">Shivang Choubey</span><span class="brand-role">Full-Stack | Software Developer</span></span>
+          </a>
+          <p class="footer-note">Designed and built with care. © <span id="year">2026</span> Shivang Choubey.</p>
+          <a class="footer-top-link" href="#top" data-cursor="Top">Back to top <svg class="icon"><use href="#i-arrow-up"/></svg></a>
+        </div>
+        <div class="footer-mark" aria-hidden="true">SC</div>
+        <div class="container footer-bottom">
+          <span>Phagwara, Punjab · <span id="local-time">--:--</span> IST</span>
+          <span>Portfolio / 2026</span>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" /></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M17 7 7 17M15 7H7v8" /></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 4v16m-5-6 5 6 5-6" /></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2" /><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1" /></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2Z" /></symbol>
+  </svg>
+
+  <!-- Core animation & smooth scroll engines -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>

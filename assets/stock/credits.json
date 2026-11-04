@@ -1,0 +1,50 @@
+[
+  {
+    "id": "hero-code",
+    "query": "programming code on dark computer screen close up",
+    "status": "ok",
+    "provider": "pexels",
+    "path": "assets/stock/hero-code.jpg",
+    "alt": "Close-up of HTML code displayed on a computer screen in dark mode, focusing on programming concepts.",
+    "author": "César Gaviria",
+    "authorUrl": "https://www.pexels.com/@cesar-gaviria-232160",
+    "sourceUrl": "https://www.pexels.com/photo/html-code-on-computer-screen-in-dark-mode-36571389/",
+    "license": "Pexels License (https://www.pexels.com/license/)"
+  },
+  {
+    "id": "datacenter",
+    "query": "data center server racks dark technology",
+    "status": "ok",
+    "provider": "pexels",
+    "path": "assets/stock/datacenter.jpg",
+    "alt": "Close-up of server racks in a data center highlighting modern technology infrastructure.",
+    "author": "panumas nikhomkhai",
+    "authorUrl": "https://www.pexels.com/@cookiecutter",
+    "sourceUrl": "https://www.pexels.com/photo/data-center-server-racks-with-active-equipment-37730212/",
+    "license": "Pexels License (https://www.pexels.com/license/)"
+  },
+  {
+    "id": "circuit",
+    "query": "circuit board macro electronics close up",
+    "status": "ok",
+    "provider": "pixabay",
+    "path": "assets/stock/circuit.jpg",
+    "alt": "pins, cpu, processor, macro, pen, computer, electronics, data processing, chip, circuit board, circuits, pc, control center, connections, electrical engineering, component, technology, trace, data, electric, components, software, close up, slot, cpu, cpu, cpu, cpu, cpu, processor, chip, chip, software, software, software",
+    "author": "blickpixel",
+    "authorUrl": "https://pixabay.com/users/blickpixel-52945/",
+    "sourceUrl": "https://pixabay.com/photos/pins-cpu-processor-macro-pen-564775/",
+    "license": "Pixabay Content License (https://pixabay.com/service/license-summary/)"
+  },
+  {
+    "id": "workspace",
+    "query": "software developer desk keyboard monitor dark workspace",
+    "status": "ok",
+    "provider": "pixabay",
+    "path": "assets/stock/workspace.jpg",
+    "alt": "man, computer, screen, desktop, imac, apple products, desktop computer, workspace, workplace, working, technology, indoors, desk, office, information, display, monitor, programmer, developer, computer, computer, desktop, information, monitor, programmer, programmer, programmer, developer, developer, developer, developer, developer",
+    "author": "Pexels",
+    "authorUrl": "https://pixabay.com/users/Pexels-2286921/",
+    "sourceUrl": "https://pixabay.com/photos/man-computer-screen-desktop-imac-1839500/",
+    "license": "Pixabay Content License (https://pixabay.com/service/license-summary/)"
+  }
+]
