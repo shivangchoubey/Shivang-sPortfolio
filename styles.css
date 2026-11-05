@@ -3924,3 +3924,22 @@ html.no-js .loader {
     display: none;
   }
 }
+
+/* Hide Netlify drawer, badge & preview widgets */
+#netlify-badge,
+.netlify-badge,
+[class*="netlify-badge"],
+[id*="netlify-badge"],
+iframe[src*="netlify"],
+iframe#netlify-cdp,
+div[data-netlify-deploy-preview],
+[class*="netlify-drawer"],
+#netlify-drawer,
+[data-netlify-feedback],
+[class*="feedback-drawer"],
+[class*="netlify-overlay"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
